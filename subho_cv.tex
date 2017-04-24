@@ -1,0 +1,163 @@
+\pdfminorversion=4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin,11pt]{res}  
+
+% Default font is the helvetica postscript font
+%\usepackage{helvet}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+
+% Increase text height
+\textheight=700pt
+
+\usepackage{enumitem}
+%\usepackage[none]{hyphenat}
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\name{\textsc{Subhojyoti Mukherjee}}
+% Note that addresses can be used for other contact information:
+% -phone numbers
+% -email addresses
+% -linked-in profile
+
+\address{RISE lab\\Department of Computer Science Engineering\\Indian Institute of Technology Madras\\Chennai, India 600036}
+\address{Phone: +91 97486 83510 \\Email: \texttt{subho@cse.iitm.ac.in}}
+
+% Uncomment to add a third address
+%\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
+%-------------------------------------------------------------------------------
+
+\begin{resume}
+
+\section{RESEARCH INTERESTS}
+\textbf{Broad Areas}: Machine learning, Reinforcement learning.
+
+\par
+\textbf{Working On}: Multi-armed bandits.
+
+
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{EDUCATION}
+\textbf{Indian Institute of Technology Madras}, Chennai, India\hfill January 2015--present\\
+{\sl M.S}, Computer Science Engineering
+\\Guides: Prof.~Balaraman Ravindran and Prof.~Nandan Sudarsanam\\CGPA: 8.22/10
+\\[0.25cm]
+\textbf{Meghnad Saha Institute of Technology}, Kolkata, India\hfill 2009--2013\\
+{\sl Bachelor of Technology}, Computer Science Engineering\\ CGPA: 8.42/10
+%-------------------------------------------------------------------------------
+\section{PUBLICATIONS}
+\begin{enumerate}[leftmargin=*]
+\item Subhojyoti Mukherjee, L.A.~Prashanth, Nandan Sudarsanam, and Balaraman Ravindran, ``\textit{UCB with improved exploration and clustering},'' under review in ICML 2017.
+\item Subhojyoti Mukherjee, K.P.~Naveen, Nandan Sudarsanam, and Balaraman Ravindran, ``\textit{Thresholding Bandit with Augmented UCB},'' accepted in the proceedings of IJCAI 2017.
+\item Subhojyoti Mukherjee, K.P.~Naveen, Nandan Sudarsanam, and Balaraman Ravindran, ``\textit{Efficient UCBV: An Almost Optimal Algorithm using Variance Estimates},'' under review for ECML 2017.
+\end{enumerate}
+
+%---------------------------------------------------------------------------
+\section{RESEARCH PROJECTS}
+\par 
+\textbf{Efficient Clustered UCB}\\
+Presented a novel algorithm for the stochastic multi-armed bandit (MAB) problem. Our proposed Efficient Clustered UCB method partitions the arms into clusters and then follows the UCB-Improved strategy with aggressive exploration factors to eliminate sub-optimal arms, as well as entire clusters. Through a theoretical analysis, we establish that our method achieves a better gap-dependent regret upper bound than UCB-Improved and MOSS algorithms.
+\par 
+
+\textbf{Augmented UCB}\\
+Proposed the Augmented-UCB (AugUCB) algorithm for a fixed-budget version of the thresholding bandit problem (TBP), where the objective is to identify a set of arms whose quality is above a threshold. A key feature of AugUCB is that it uses both mean and variance estimates to eliminate arms that have been sufficiently explored. This is the first algorithm to employ such an approach for the considered TBP.
+\par
+
+\textbf{Efficient UCB-Variance}\\
+Presented a novel algorithm for the stochastic multi-armed bandit (MAB) problem. Our proposed Efficient UCB Variance method, referred to as EUCBV is an arm elimination algorithm based on UCB-Improved and UCBV strategy which takes into account the empirical variance of the arms and along with aggressive exploration factors eliminate sub-optimal arms. Through a theoretical analysis, we establish that EUCBV achieves a better gap-dependent regret upper bound than UCB-Improved, MOSS, UCB1, and UCBV algorithms. EUCBV enjoys an order optimal gap-independent regret bound same as that of OCUCB and MOSS, and better than UCB-Improved, UCB1 and UCBV.
+
+
+\section{TEACHING EXPERIENCE}
+\par
+\textbf{Teaching Assistant}, IIT Madras\hfill January 2015--present\\
+Assisted in preparing and conducting lab assignments and class tutorials for the following courses:\\
+\textit{Introduction to Programming} - Prof.~Raghavendra Rao B. V. \\
+\textit{Reinforcement Learning} - Prof.~Balaraman Ravindran\\
+\textit{Compiler Design} - Prof.~Rupesh Nasre
+
+\section{WORK\\EXPERIENCE}
+\textbf{Tata Consultancy Services Ltd.}, Kolkata, India\hfill March 2014--December 2014\\
+\textit{Assistant System Engineer Trainee}\\
+Software development and test engineer in Digital Enterprise Service and Solution.
+
+% \section{AWARDS}
+% \textbf{Doctoral Consortium Participation and Travel Award} at the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2016\\
+% \textbf{Institute Research Scholar Award} for excellence in research awarded by IIT Madras in April 2015
+
+\section{PROFESSIONAL ACTIVITIES}
+\textbf{Reviewer} 
+Assisted Prof.~Balaraman Ravindran in reviewing for IJCAI 2017.\\
+
+
+\section{RELEVANT COURSEWORK}
+\begin{tabular}{ll}
+Introduction to Machine Learning & Reinforcement Learning  \\
+Natural Language Processing & Linear Algebra and Random Processes \\
+Multi-variate Data Analysis & Data Analysis for Research \\
+\multicolumn{2}{l}{Fundamentals of Experimentation for Management}
+\end{tabular}
+
+\section{REFERENCES}
+\begin{tabular}{lll}
+\textbf{Prof.~Balaraman Ravindran} & \textbf{Prof.~Nandan Sudarsanam} \\
+Associate Professor & Assistant Professor\\
+\texttt{ravi@cse.iitm.ac.in} & \texttt{nandan@iitm.ac.in}\\
+Department of Computer Science Engg. & Department of Management Studies\\ 
+Indian Institute of Technology Madras & Indian Institute of Technology Madras
+\end{tabular}
+
+
+
+\end{resume}
+\end{document}
