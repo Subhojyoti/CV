@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  19 SEP 2017 18:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  8 NOV 2017 16:29
 entering extended mode
 **subho_cv.tex
 (C:\Users\Subhojyoti\Desktop\github\CV\subho_cv.tex
@@ -136,29 +136,29 @@ d Balara-man Ravin-
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 130.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 134.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsphv.fd"
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 134.
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--156
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
 
  []
 
-
-Overfull \hbox (14.98119pt too wide) in paragraph at lines 175--189
+[2]
+Overfull \hbox (29.6014pt too wide) in paragraph at lines 181--195
 [][] 
  []
 
-[2] ) 
+[3] ) 
 Here is how much of TeX's memory you used:
  935 strings out of 493921
  12293 string characters out of 3144861
- 62527 words of memory out of 3000000
+ 61527 words of memory out of 3000000
  4271 multiletter control sequences out of 15000+200000
  25638 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -169,9 +169,9 @@ ers\Subhojyoti\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt
 0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on subho_cv.pdf (2 pages, 53857 bytes).
+Output written on subho_cv.pdf (3 pages, 54937 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
