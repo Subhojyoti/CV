@@ -1,0 +1,34 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Audibert, Munos, and
+  Szepesv{\'a}ri}{2009}]{audibert2009exploration}
+Audibert, J.-Y.; Munos, R.; and Szepesv{\'a}ri, C.
+\newblock 2009.
+\newblock Exploration--exploitation tradeoff using variance estimates in
+  multi-armed bandits.
+\newblock {\em Theoretical Computer Science} 410(19):1876--1902.
+
+\bibitem[\protect\citeauthoryear{Auer and Ortner}{2010}]{auer2010ucb}
+Auer, P., and Ortner, R.
+\newblock 2010.
+\newblock Ucb revisited: Improved regret bounds for the stochastic multi-armed
+  bandit problem.
+\newblock {\em Periodica Mathematica Hungarica} 61(1-2):55--65.
+
+\bibitem[\protect\citeauthoryear{Mukherjee \bgroup et al\mbox.\egroup
+  }{2017}]{mukherjee2016}
+Mukherjee, S.; Kolar~Purushothama, N.; Sudarsanam, N.; and Ravindran, B.
+\newblock 2017.
+\newblock Thresholding bandits with augmented ucb.
+\newblock In {\em Proceedings of the 26th International Joint Conference on
+  Artificial Intelligence},  2515--2521.
+
+\bibitem[\protect\citeauthoryear{Mukherjee \bgroup et al\mbox.\egroup
+  }{2018}]{mukherjee2018}
+Mukherjee, S.; Kolar~Purushothama, N.; Sudarsanam, N.; and Ravindran, B.
+\newblock 2018.
+\newblock Efficient-ucbv: An almost optimal algorithm using variance estimates.
+\newblock In {\em Proceedings of the 32nd Association for the Advancement of
+  Artificial Intelligence}.
+
+\end{thebibliography}
