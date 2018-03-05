@@ -79,10 +79,13 @@
 \begin{resume}
 
 \section{RESEARCH INTERESTS}
-\textbf{Broad Areas}: Machine learning, Reinforcement learning.
 
-\par
-\textbf{Working On}: Multi-armed bandits.
+Machine learning, Reinforcement learning, Online Learning, Multi-armed bandits, Recommender Systems, Applied Probability, Optimization.
+
+%\textbf{Broad Areas}: Machine learning, Reinforcement learning.
+%
+%\par
+%\textbf{Working On}: Multi-armed bandits.
 
 
 %-------------------------------------------------------------------------------
@@ -99,27 +102,42 @@
 \section{PUBLICATIONS}
 \begin{enumerate}[leftmargin=*]
 %\item Subhojyoti Mukherjee, L.A.~Prashanth, Nandan Sudarsanam, and Balaraman Ravindran, ``\textit{UCB with improved exploration and clustering},'' under review in ICML 2017.
-\item Subhojyoti Mukherjee, K.P.~Naveen, Nandan Sudarsanam, and Balaraman Ravindran, ``\textit{Thresholding Bandit with Augmented UCB}'', \textit{Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence (IJCAI-17)}, main conference track.
-\item Subhojyoti Mukherjee, K.P.~Naveen, Nandan Sudarsanam, and Balaraman Ravindran, ``\textit{Efficient UCBV: An Almost Optimal Algorithm using Variance Estimates}'', \textit{To appear in Proceedings of the Thirty-Second Association for the Advancement of Artificial Intelligence (AAAI-18)}, main conference track. Accepted for oral presentation. Awarded Google travel grant and AAAI grant.
+\item \textbf{Subhojyoti Mukherjee}, K.P.~Naveen, Nandan Sudarsanam, and Balaraman Ravindran, ``\textit{Thresholding Bandits with Augmented UCB}'', \textit{Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence \textbf{(IJCAI-17)}}, main conference track.
+\item \textbf{Subhojyoti Mukherjee}, K.P.~Naveen, Nandan Sudarsanam, and Balaraman Ravindran, ``\textit{Efficient UCBV: An Almost Optimal Algorithm using Variance Estimates}'', \textit{To appear in Proceedings of the Thirty-Second Association for the Advancement of Artificial Intelligence \textbf{(AAAI-18)}}, main conference track. Accepted for oral presentation.
+\item \textbf{Subhojyoti Mukherjee}, and Odalric-Ambrym-Maillard, ``\textit{Improved Changepoint Detection in Piece-wise Stochastic Bandits}'', \textit{Under Review in Proceedings of the Thirty-Fifth International  Conference on Machine Learning \textbf{(ICML-18)}}, main conference track.
 \end{enumerate}
 
 %---------------------------------------------------------------------------
+\section{Master's Thesis}
+
+This thesis studies the following topics in the area of Reinforcement Learning: Multi-armed bandits in stationary distribution with the goal of cumulative regret minimization and Thresholding bandits in pure exploration setting. The common underlying theme is the study of bandit theory and its application in various types of environments. In the first part of the thesis, we study the classic multi-armed bandit problem with a stationary distribution, one of the first settings studied by the bandit community and which successively gave rise to several new directions in bandit theory. We propose a novel algorithm in this setting and compare both theoretically and empirically its performance against the available algorithms. Our proposed algorithm termed as Efficient-UCB-Variance (EUCBV) is the first arm-elimination algorithm which uses variance estimation to eliminate arms as well as achieve an order optimal regret bound. Empirically, we show that EUCBV outperforms most of the state-of-the-art algorithms in the considered environments. In the next part, we study a specific type of stochastic multi-armed bandit setup called the thresholding bandit problem and discuss its usage, available state-of-the-art algorithms on this setting and our solution to this problem. We propose the Augmented-UCB (AugUCB) algorithm which again uses variance and mean estimation along with arm elimination technique to conduct exploration. We give theoretical guarantees on the expected loss of our algorithm and also analyze its performance against state-of-the-art algorithms in numerical simulations in multiple synthetic environments. 
+
+
+\section{B.Tech Project}
+
+This project studies the area of Sentiment Analysis in Natural Language Processing. Identifying the sentiment of a movie review or a product review from user comments forms a vital form of feedback in recommender systems. The learning algorithm can use this feedback to understand the recent trends and then suggest an interesting item to a user that will generate its interest. We develop an algorithm that takes input a recent trending topic in the internet which then crawls the Twitter in identifying the sentiments of the user regarding the topic from their associated tweets and then outputs whether the general sentiment is positive, negative or neutral regarding the topic. The algorithm uses bag-of-words model where it uses several existing dictionaries to store the sentiment of words before-hand to output the general sentiment regarding the topic.
+
+
+
 \section{RESEARCH PROJECTS}
 %\par 
 %\textbf{Efficient Clustered UCB}\\
 %Presented a novel algorithm for the stochastic multi-armed bandit (MAB) problem. Our proposed Efficient Clustered UCB method partitions the arms into clusters and then follows the UCB-Improved strategy with aggressive exploration factors to eliminate sub-optimal arms, as well as entire clusters. Through a theoretical analysis, we establish that our method achieves a better gap-dependent regret upper bound than UCB-Improved and MOSS algorithms.
 \par 
 
-\textbf{Augmented UCB}\\
-Proposed the Augmented-UCB (AugUCB) algorithm for a fixed-budget version of the thresholding bandit problem (TBP), where the objective is to identify a set of arms whose quality is above a threshold. A key feature of AugUCB is that it uses both mean and variance estimates to eliminate arms that have been sufficiently explored. This is the first algorithm to employ such an approach for the considered TBP.
+\textbf{Thresholding Bandits with Augmented UCB}\\
+Proposed the Augmented-UCB (AugUCB) algorithm for a fixed-budget version of the thresholding bandit problem (TBP), where the objective is to identify a set of arms whose quality is above a threshold. A key feature of AugUCB is that it uses both mean and variance estimates to eliminate arms that have been sufficiently explored. This is the first algorithm to employ such an approach for the considered TBP setting.
 \par
 
-\textbf{Efficient UCB-Variance}\\
+\textbf{Efficient UCBV: An Almost Optimal Algorithm using Variance Estimates}\\
 Presented a novel algorithm for the stochastic multi-armed bandit (MAB) problem. Our proposed Efficient UCB Variance method, referred to as EUCBV is an arm elimination algorithm based on UCB-Improved and UCBV strategy which takes into account the empirical variance of the arms and along with aggressive exploration factors eliminate sub-optimal arms. Through a theoretical analysis, we establish that EUCBV achieves a better gap-dependent regret upper bound than UCB-Improved, MOSS, UCB1, and UCBV algorithms. EUCBV enjoys an order optimal gap-independent regret bound same as that of OCUCB and MOSS, and better than UCB-Improved, UCB1 and UCBV.
 \par
 
-\textbf{Aggregation of Experts}\\
-We study a variant of multi-armed bandits where arms are non-stationary but predictable. The basic idea is to combine change-point detection algorithm with aggregation of expert strategies in order to define efficient pulling strategies in context of bandits with change of distributions. We focus on the guarantees of prediction error for each arm derived from theory, and on the problem of learning adaptively a representation of signal from a practical point of view. 
+\textbf{Improved Changepoint Detection in Piece-wise Stochastic Bandits}\\
+We proposed two UCB algorithms, UCB-CPD and ImpCPD for the piecewise stochastic environment. Both these algorithms are adaptive and try to locate the changepoints and restart, thereby performing better than the passive algorithms. Theoretically, ImpCPD achieves an order optimal regret bound of $O\left(G\sqrt{T}\right)$, thereby closing an important gap with respect to the lower bound. Empirically, ImpCPD outperforms most of the passive and adaptive algorithms except the oracle-based algorithms in all the considered environments.
+
+\textbf{Generalized Latent Bandits}\\
+ We study the problem of recommending the best items to users who are coming sequentially. The learner has access to very less prior information about the users and it has to adapt quickly to the user preferences and suggest the best item to each user. Furthermore, we consider the setting where users are grouped into clusters and within each cluster the users have the same choice of the best item, even though their quality of preference may be different for the best item. These clusters along with the choice of the best item for each user are unknown to the learner.  Also, we assume that each user has a single best item preference. This complex problem can be conceptualized as a low rank stochastic bandit problem where the goal of the learner is to minimize the cumulative regret by quickly identifying the best item for each user.
 
 %\textbf{Conservative Bandits}\\
 %We study 
@@ -130,13 +148,13 @@ We study a variant of multi-armed bandits where arms are non-stationary but pred
 \textbf{Adobe Research, San Jose:} Research internship under Dr. Branislav Kveton in the Adobe Research, San Jose, USA from 22nd January, 2018 to 20th April, 2018 for a period of 3 months.
 
 \section{Collaborators}
-\begin{itemize}
+\begin{enumerate}
 \item Dr. Balaraman Ravindran, CSE Department, IIT Madras
 \item Dr. Nandan Sudarsanam, Department of Management Science, IIT Madras
 \item Dr. K.P. Naveen, Deprtment of Electrical Engineering, IIT Tiruapti
 \item Dr. Odalric-Ambrym Maillard, INRIA, SequeL Lab, Lille, France
 \item Dr. Branislav Kveton, Adobe Research, San Jose, USA
-\end{itemize}
+\end{enumerate}
 
 \section{TEACHING EXPERIENCE}
 \par
@@ -157,7 +175,15 @@ Software development and test engineer in Digital Enterprise Service and Solutio
 
 \section{PROFESSIONAL ACTIVITIES}
 \textbf{Reviewer} 
-Assisted Dr.~Balaraman Ravindran in reviewing for IJCAI 2017.\\
+\begin{enumerate}
+\item Assisted Dr.~Balaraman Ravindran in reviewing for IJCAI 2017.
+\item Assisted Dr.~Branislav Kveton in reviewing for ICML 2018.
+\end{enumerate}
+
+\textbf{Workshop Volunteer} 
+\begin{enumerate}
+\item Assisted Dr.~Balaraman Ravindran in conducting the \textit{"Recent Advances in Reinforcement Learning, 2015"} workshop held at IIT Madras. Some of the key speakers include, Dr. Richard Sutton, Dr. Csaba Szepesvari, Dr. Sridhar Mahadevan, and Dr. Satindar Singh.
+\end{enumerate}
 
 
 \section{RELEVANT COURSEWORK}
@@ -168,6 +194,13 @@ Multi-variate Data Analysis & Data Analysis for Research \\
 \multicolumn{2}{l}{Fundamentals of Experimentation for Management}
 \end{tabular}
 
+\section{Awards}
+\begin{enumerate}
+\item Our paper titled "Thresholding Bandits with Augmented UCB" was awarded IIT Madras student travel grant of USD $2300$.
+\item Our paper titled "Efficient UCBV: An Almost Optimal Algorithm using Variance Estimates" was awarded Google travel grant of USD $1700$ and AAAI grant of USD $500$.
+\end{enumerate}
+
+
 \section{OTHER ACHIEVEMENTS}
 \begin{tabular}{p{12cm}p{80cm}}
 Scored 314/340 in Graduate Record Examinations \textbf{(GRE)} 2017.\\
@@ -176,7 +209,7 @@ Ranked 1150/155190 candidates in Graduate Aptitude Test in Engineering \textbf{(
 Secured 98.93 percentile in Common Admission Test \textbf{(CAT)} 2014 among 196988 candidates.
 \end{tabular}
 
-\newpage
+%\newpage
 \section{REFERENCES}
 \begin{tabular}{lll}
 \textbf{Dr.~Balaraman Ravindran} & \textbf{Dr.~Nandan Sudarsanam} \\
@@ -189,8 +222,13 @@ Indian Institute of Technology Madras & Indian Institute of Technology Madras\\
 Assistant Professor & INRIA Researcher (CR1) \\
 \texttt{naveenkp@iittp.ac.in} & \texttt{odalricambrym.maillard @ inria.fr}\\
 Department of Electrical Engg. & SequeL Team \\ 
-Indian Institute of Technology Tirupati & INRIA Lille, France
-
+Indian Institute of Technology Tirupati & INRIA Lille, France\\
+\\
+\textbf{Dr.~Branislav Kveton}\\
+Machine Learning Scientist\\
+kveton@adobe.com\\
+BigData Experience Lab\\
+Adobe Research, San Jose, CA, USA
 \end{tabular}
 
 
