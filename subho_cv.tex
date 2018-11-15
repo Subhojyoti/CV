@@ -70,7 +70,9 @@
 % -email addresses
 % -linked-in profile
 
-\address{ALL Lab \& Bio-NLP Group\\College of Information and Computer Sciences \\University of Massachusetts Amherst\\Amherst, MA 01002}
+%ALL Lab \& Bio-NLP Group\\
+
+\address{College of Information and Computer Sciences \\University of Massachusetts Amherst\\Amherst, MA 01002}
 \address{Phone: +1 669 208 8939\\Email: \texttt{subho@cs.umass.edu, } \\ \texttt{subhojyotimukherjee22@gmail.com} \\ Website: \href{https://subhojyoti.github.io/}{https://subhojyoti.github.io/}}
 
 % Uncomment to add a third address
@@ -93,7 +95,7 @@ Machine learning, Reinforcement learning, Online Learning, Multi-armed bandits, 
 %	EDUCATION SECTION
 %-------------------------------------------------------------------------------
 \section{Education}
-\textbf{University of Massachusetts}, Amherst, USA \hfill Fall 2018 -- ?\\
+\textbf{University of Massachusetts}, Amherst, USA \hfill Fall 2018 -- current\\
 {\sl Ph.D.}, Computer Science \\
 %Advisers: \href{https://scholar.google.com/citations?user=TyXe64wAAAAJ&hl=en}{Dr. Hong Yu} and \href{https://people.cs.umass.edu/~pthomas/}{Dr. Phillip Thomas}
 \\[0.25cm]
@@ -109,7 +111,7 @@ Advisers: \href{https://www.cse.iitm.ac.in/~ravi/}{Dr.~Balaraman Ravindran} and 
 %\item Subhojyoti Mukherjee, L.A.~Prashanth, Nandan Sudarsanam, and Balaraman Ravindran, ``\textit{UCB with improved exploration and clustering},'' under review in ICML 2017.
 \item \textbf{Subhojyoti Mukherjee}, K.P.~Naveen, Nandan Sudarsanam, and Balaraman Ravindran, ``\textit{Thresholding Bandits with Augmented UCB}'', \textit{Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence \textbf{(IJCAI-17)}}, main conference track. \href{http://static.ijcai.org/proceedings-2017/0350.pdf}{[Paper]}
 \item \textbf{Subhojyoti Mukherjee}, K.P.~Naveen, Nandan Sudarsanam, and Balaraman Ravindran, ``\textit{Efficient UCBV: An Almost Optimal Algorithm using Variance Estimates}'', \textit{Proceedings of the Thirty-Second Association for the Advancement of Artificial Intelligence \textbf{(AAAI-18)}}, main conference track. Accepted for oral presentation.\href{https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16111}{[Paper]}
-\item \textbf{Subhojyoti Mukherjee}, and Odalric-Ambrym-Maillard, ``\textit{Improved Changepoint Detection in Piece-wise Stochastic Bandits}'', \textit{Under Review in Proceedings of the Twenty-Second International  Conference on Artificial Intelligence and Statistics  \textbf{(AISTATS-19)}}, main conference track. \href{https://github.com/Subhojyoti/INRIA_Intern/blob/master/AISTATS2019/aistats_2019.pdf}{[Paper]}
+\item \textbf{Subhojyoti Mukherjee}, and Odalric-Ambrym-Maillard, ``\textit{Improved Changepoint Detection in Piece-wise Stochastic Bandits}'', \textit{Under Review in Proceedings of the Twenty-Second International  Conference on Artificial Intelligence and Statistics  \textbf{(AISTATS-19)}}, main conference track. \href{https://subhojyoti.github.io/pdf/aistats_2019.pdf}{[Paper]}
 \end{enumerate}
 
 %---------------------------------------------------------------------------
@@ -156,8 +158,8 @@ Presented a novel algorithm for the stochastic multi-armed bandit (MAB) problem.
 We consider the setup of stochastic multi-armed bandits in the case when reward distributions are piecewise i.i.d. with unknown changepoints. Out of generality, we assume the reward distributions to be bounded and thus do not restrict to specific parametric exponential families. Due to the regret minimization objective, we study the change of mean, in the context when not only the change times are unknown, but also the mean before and after any change. We focus on the case when changes happen simultaneously on all arms, and in stark contrast with the existing literature, we target gap-dependent (as opposed to only gap-independent) regret bounds involving the magnitude of changes and optimality-gaps. We introduce two simple adaptations of UCB-strategies that employ scan-statistics in order to actively detect the changepoints, without knowing in advance the number of changepoints $G$. 
     We also derive gap-independent regret bounds. The first strategy UCB-CPD does not know the time horizon $T$ and achieve a $O(\sqrt{GT}\log T)$ regret bound, while the second strategy ImpCPD makes use of the knowledge of $T$ to remove the $\log T$ dependency thereby closing an important gap with respect to the lower bound. Empirically, ImpCPD outperforms most of the passive and adaptive algorithms except the oracle-based algorithms that have access to the exact changepoints in all the considered environments.
 
-\textbf{Stochastic Low-Rank Latent Bandits}\\
- We study the problem of recommending the best items to users who are coming sequentially. The learner has access to very less prior information about the users and it has to adapt quickly to the user preferences and suggest the best item to each user. Furthermore, we consider the setting where users are grouped into clusters and within each cluster the users have the same choice of the best item, even though their quality of preference may be different for the best item. These clusters along with the choice of the best item for each user are unknown to the learner.  Also, we assume that each user has a single best item preference. This complex problem can be conceptualized as a low rank stochastic bandit problem where the goal of the learner is to minimize the cumulative regret by quickly identifying the best item for each user.
+\textbf{Latent Ranked Bandit}\\
+We study the problem of learning personalized ranked lists of diverse items for multiple users, from sequential observations of user preferences. The user-item preference matrix is non-negative and low-rank. Existing methods for solving similar problems are based on reconstructing the preference matrix from its noisy observations using matrix factorization techniques, and typically require strong assumptions on the reconstructed matrix. We depart from this standard approach and consider a family of low-rank matrices, where the set of most preferred items of all users is small and can be learned efficiently. Then we learn to present this set to each user in a personalized manner, in the order of the descending preferences of the user. We propose a computationally efficient algorithm that implements this procedure, and prove a sublinear bound on its $n$-step regret. We evaluate the algorithm empirically on several synthetic and real-world datasets. In all experiments, we outperform existing state-of-the-art algorithms. \href{https://subhojyoti.github.io/pdf/paper.pdf}{[Report]}
 
 %\textbf{Conservative Bandits}\\
 %We study 
@@ -219,7 +221,7 @@ Multi-variate Data Analysis & Data Analysis for Research \\
 
 \section{Other Achievements}
 \begin{tabular}{p{12cm}p{80cm}}
-Scored 314/340 in Graduate Record Examinations \textbf{(GRE)} 2017.\\
+Scored 318/340 in Graduate Record Examinations \textbf{(GRE)} 2018.\\
 Scored 111/120 in Test of English as a Foreign Language \textbf{(TOEFL)} 2017.\\
 Ranked 1150/155190 candidates in Graduate Aptitude Test in Engineering \textbf{(GATE)} 2014. \\
 Secured 98.93 percentile in Common Admission Test \textbf{(CAT)} 2014 among 196988 candidates.

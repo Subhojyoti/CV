@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 OCT 2018 02:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 NOV 2018 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -217,43 +217,43 @@ LaTeX Info: Redefining \nameref on input line 62.
 pdfTeX warning (Object streams): \pdfobjcompresslevel > 0 requires \pdfminorver
 sion > 4. Object streams disabled now.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 80.
+(Font)              <10.95> on input line 82.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 80.
+(Font)              <8> on input line 82.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 80.
+(Font)              <6> on input line 82.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 80.
+(Font)              scaled to size 11.39996pt on input line 82.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 80.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 80.
+(Font)              scaled to size 11.39996pt on input line 82.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <12> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 80.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 11.39996pt on input line 80.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 80.
+(Font)              scaled to size 11.39996pt on input line 82.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 82.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 82.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 82.
+(Font)              scaled to size 10.40245pt on input line 84.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 97.
+(Font)              scaled to size 10.40245pt on input line 99.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 110.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 112.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 110.
+(Font)              scaled to size 10.40245pt on input line 112.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 110.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 112.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 110.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 112.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 10.40245pt on input line 110.
+(Font)              scaled to size 10.40245pt on input line 112.
 
-Overfull \hbox (0.16003pt too wide) in paragraph at lines 112--113
+Overfull \hbox (0.16003pt too wide) in paragraph at lines 114--115
 \T1/phv/m/sl/10.95 the Twenty-Second In-ter-na-tional Con-fer-ence on Ar-ti-fi-
 cial In-tel-li-gence and Statis-
  []
@@ -262,16 +262,16 @@ cial In-tel-li-gence and Statis-
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3]
-Overfull \hbox (36.43596pt too wide) in paragraph at lines 230--248
+Overfull \hbox (36.43596pt too wide) in paragraph at lines 232--250
 [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 252.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 252.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 254.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
  ) 
 Here is how much of TeX's memory you used:
  4894 strings out of 492995
@@ -280,7 +280,7 @@ Here is how much of TeX's memory you used:
  8429 multiletter control sequences out of 15000+600000
  28494 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,8n,22p,1759b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,8n,22p,1759b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
@@ -291,9 +291,9 @@ e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 mf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/urw/helvetic/uhvro8a.pfb>
-Output written on subho_cv.pdf (4 pages, 113864 bytes).
+Output written on subho_cv.pdf (4 pages, 114383 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  19 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
