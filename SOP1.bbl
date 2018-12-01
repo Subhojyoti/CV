@@ -1,0 +1,20 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Mukherjee \bgroup et al\mbox.\egroup
+  }{2017}]{mukherjee2016}
+Mukherjee, S.; Kolar~Purushothama, N.; Sudarsanam, N.; and Ravindran, B.
+\newblock 2017.
+\newblock Thresholding bandits with augmented ucb.
+\newblock In {\em Proceedings of the 26th International Joint Conference on
+  Artificial Intelligence},  2515--2521.
+
+\bibitem[\protect\citeauthoryear{Mukherjee \bgroup et al\mbox.\egroup
+  }{2018}]{mukherjee2018}
+Mukherjee, S.; Kolar~Purushothama, N.; Sudarsanam, N.; and Ravindran, B.
+\newblock 2018.
+\newblock Efficient-{UCBV}: An almost optimal algorithm using variance
+  estimates.
+\newblock In {\em Proceedings of the 32nd Association for the Advancement of
+  Artificial Intelligence (to appear)}.
+
+\end{thebibliography}
