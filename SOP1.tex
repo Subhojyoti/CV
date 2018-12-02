@@ -21,6 +21,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage{xcolor}
 
 
 
@@ -51,17 +52,26 @@
    \noindent
    \begin{center}
    \framebox{
-      \vbox{\vspace{2mm}
+      \vbox{
+      %\vspace{2mm}
 %    \hbox to 6.28in { {\bf Statement of Purpose
 %        \hfill Fall 2018} }
-       \vspace{2mm}
-       \hbox to 5.2in { {\Large \hfill Statement of Purpose \hfill} }
-       \vspace{2mm}
-       %\begin{center}
-       %\hbox to 5.28in { {\it \hfill Department of Computer Science  \hfill Applicant: Subhojyoti Mukherjee} }
-        \hbox to 5.2in { {\large \hfill Subhojyoti Mukherjee \hfill } }
+	%\begin{center}
+       \vspace{1mm}
+       \hbox to 4.2in { {\Large \hfill Statement of Purpose \hfill} }
+%       \vspace{1mm}
+%       \hbox to 6.2in { {\it \hfill School of Computer Science  \hfill Subhojyoti Mukherjee  \hfill}}
+%       \vspace{1mm}
+%       \hbox to 6.2in { {\it \hfill Carnegie Mellon University  \hfill Ph.D Applicant \hfill} }
+       \hbox to 4.2in {\hfill 
+       \begin{tabular}{cc} 
+       School of Computer Science  & Ph.D Applicant \\
+       Carnegie Mellon University & Subhojyoti Mukherjee
+       \end{tabular} \hfill}
+        %\hbox to 5.2in { {\large \hfill Subhojyoti Mukherjee \hfill } }
        %\end{center}
-      \vspace{2mm}}
+      %\vspace{2mm}
+      }
    }
    \end{center}
    %\markboth{Lecture #1: #2}{Lecture #1: #2}
@@ -102,20 +112,37 @@
 % **** IF YOU WANT TO DEFINE ADDITIONAL MACROS FOR YOURSELF, PUT THEM HERE:
 
 %\newcommand\E{\mathbb{E}}
+%\usepackage[scaled]{helvet}
+%\renewcommand\familydefault{\sfdefault} 
+%\usepackage[T1]{fontenc}
+%\usepackage{enumitem}
 
 
 \begin{document}
+
+%\name{\textsc{Subhojyoti Mukherjee}}
+%% Note that addresses can be used for other contact information:
+%% -phone numbers
+%% -email addresses
+%% -linked-in profile
+%
+%%ALL Lab \& Bio-NLP Group\\
+%
+%\address{College of Information and Computer Sciences \\University of Massachusetts Amherst\\Amherst, MA 01002}
+%\address{Phone: +1 669 208 8939\\Email: \texttt{subho@cs.umass.edu, } \\ \texttt{subhojyotimukherjee22@gmail.com} \\ Website: \href{https://subhojyoti.github.io/}{https://subhojyoti.github.io/}}
+
+
 %FILL IN THE RIGHT INFO.
 %\lecture{**LECTURE-NUMBER**}{**DATE**}{**LECTURER**}{**SCRIBE**}
 \lecture{1}{A - Title}{Lecturer Name}{scribe-name}
 
-I want to pursue Ph.D. in Computer Science and I aspire to become a professor in this field. My research interests span the areas of \textit{Reinforcement Learning, Online Optimization, and Recommender systems}. I completed M.S (Research) in Computer Science on July 2018 from \textbf{Indian Institute of Technology Madras} where my advisers where \textit{Dr. Balaraman Ravindran} and \textit{Dr. Nandan Sudarsanam}. I am currently a Ph.D. candidate at \textbf{University of Massachusetts Amherst} from Fall 2018 but I am looking for Ph.D opportunities in this university as my recruiting faculty \textit{Dr. Akshay Krishnamurthy} has left for Microsoft Research and there are no other faculty at the current institute whose research interest matches with mine.
+I want to pursue Ph.D. in Computer Science and I aspire to become a professor in this field. My research interests span the areas of \textit{Reinforcement Learning, Online Optimization, and Recommender systems}. I completed M.S (Research) in Computer Science on July 2018 from \textbf{Indian Institute of Technology Madras} where my advisers where \textit{Dr. Balaraman Ravindran} and \textit{Dr. Nandan Sudarsanam}. I am currently a first semester Ph.D. candidate at \textbf{University of Massachusetts Amherst} from Fall 2018 but I am looking for Ph.D opportunities in Carnegie Mellon University as my recruiting faculty \textit{Dr. Akshay Krishnamurthy} has left for Microsoft Research and there are no other faculty at the current institute whose research interest matches with mine.
 
 %In my pursuit of these areas, I have explicitly focused in the area of Multi-armed Bandit (MAB) in my past works. In recent years, MABs have been increasingly gaining attention in a number of inter-disciplinary areas such as online education, online medical/health recommendation, online advertising, worker productivity management, and several other interesting industrial applications. 
 
 %During my M.S at Indian Institute of Technology Madras, I collaborated with my advisors, \textit{Dr. Balaraman Ravindran} and \textit{Dr. Nandan Sudarsanam} as well as \textit{Dr. K.P. Naveen} from Indian Institute of Technology Tirupati. A few of my past research works that resulted in publications in premier conferences from these collaborations (see \citet{mukherjee2018}, \citet{mukherjee2016}) and a short description of them are listed below:- 
 
-\vspace*{-2.45em}
+\vspace*{-2.2em}
 \section{Completed/Ongoing Research}
 \vspace*{-1em}
 
@@ -127,15 +154,15 @@ My previous research have mainly focused on the theory aspect of Reinforcement l
 
 %Some of my finished research works which got published in premiere conferences have addressed these issues in a limited way. 
 
-\textbf{1. Variance aware Bandits:} While variance aware bandits have been studied for quite some time now, there are quite a few issues that still needs attention. One of them is to how to use them in pure-exploration setting and how to close some theoretical gaps. In the pure-exploration \href{https://www.ijcai.org/proceedings/2017/0350.pdf}{Thresholding Bandits} \citep{mukherjee2016} we propose an algorithm which finds the best set of actions all of whose quality is above a particular threshold. This is relatively more complex problem to handle as this best set can be quite large and the candidate set of actions from which to select the best set can be exponentially large. This type of pure exploration problems arises in mobile channel recommendation, online item recommendation where there is a separation between the testing and deploying phase. We propose a novel algorithm to solve this problem and give theoretical bounds on the maximum possible loss suffered by our method. My next work focused on a more fundamental problem regarding exploration-exploitation dilemma. For quite some time there has been a theoretical gap in the lower and upper bound on the loss of a class of strategies called variance aware elimination algorithms. These algorithms uses variance estimates to determine the quality of an action and successively eliminates actions which are deemed to be sub-par based on their estimated qualities. Our proposed algorithm called \href{https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16111}{Efficient-UCB-Variance} \citep{mukherjee2018} is such a strategy and we established that the maximum possible loss (upper bound) of this strategy matches the lower bound for all class of strategies in all the possible environments satisfying certain properties. These works have been accepted in \textbf{IJCAI 2017} and \textbf{AAAI 2018} respectively.
+\textbf{1. Variance aware Bandits:} While variance aware bandits have been studied for quite some time now, there are quite a few issues that still needs attention. One of them is to how to use them in pure-exploration setting and how to close some theoretical gaps. This type of pure exploration problems arises in mobile channel recommendation, online item recommendation where there is a separation between the testing and deploying phase. In the pure-exploration \href{https://www.ijcai.org/proceedings/2017/0350.pdf}{\underline{\color{blue}Thresholding Bandits}} \citep{mukherjee2016} we propose an algorithm which finds the best set of actions all of whose quality is above a particular threshold. This is a complex problem to solve as this best set can be quite large and the candidate set of actions from which to select the best set can be exponentially large. We propose a novel algorithm to solve this problem and give theoretical bounds on the maximum possible loss suffered by our method. My next work focused on a more fundamental problem regarding exploration-exploitation dilemma. For quite some time there has been a theoretical gap in the lower and upper bound on the loss of a class of strategies called variance aware elimination algorithms. These algorithms uses variance estimates to determine the quality of an action and successively eliminates actions which are deemed to be sub-par based on their estimated qualities. Our proposed algorithm called \href{https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16111}{\underline{\color{blue}Efficient-UCB-Variance}} \citep{mukherjee2018} is such a strategy and we established that the maximum possible loss (regret upper bound) of this strategy matches the lower bound for all class of strategies in all the possible environments satisfying certain properties. These works have been accepted in \textbf{IJCAI 2017} and \textbf{AAAI 2018} respectively.
 
-\textbf{2. Changepoint detection and Piecewise i.i.d Bandits:}  Applying Bandit strategies in environments where the quality of all the actions change abruptly and simultaneously has proved to be quite challenging. This is quite common in \textit{medical domain} where the behavior of a drug-resistant bacteria may change abruptly prompting a different response to all the treatments (actions). We proposed two novel algorithms called \href{https://subhojyoti.github.io/pdf/aistats_2019.pdf}{UCB-CPD} and \href{https://subhojyoti.github.io/pdf/aistats_2019.pdf}{ImpCPD} for this setting with interesting theoretical guarantees and closed some gaps in the existing bounds. This work was jointly done with Dr. Odalric Maillard while I was an intern at INRIA, SequeL Lab,Lille and is currently under review in \textbf{AISTATS 2019}. 
+\textbf{2. Changepoint detection and Piecewise i.i.d Bandits:}  Applying Bandit strategies in environments where the quality of all the actions change abruptly and simultaneously has proved to be quite challenging. This is quite common in \textit{medical domain} where the behavior of a drug-resistant bacteria may change abruptly prompting a different response to all the treatments (actions). We proposed two novel algorithms called \href{https://subhojyoti.github.io/pdf/aistats_2019.pdf}{\underline{\color{blue}UCB-CPD}} and \href{https://subhojyoti.github.io/pdf/aistats_2019.pdf}{\underline{\color{blue}ImpCPD}} for this setting with interesting theoretical guarantees and closed some gaps in the existing bounds. This work was jointly done with Dr. Odalric Maillard while I was an intern at INRIA, SequeL Lab,Lille and is currently under review in \textbf{AISTATS 2019}. 
 
 %This is a very challenging and interesting domain, generally referred to as the piecewise i.id setting which acts as a bridge between stationary and fully adversarial setting.
 
-\textbf{3. Ranking and Latent Bandits:} Online ranking of items personalized for each user based on their historical preference is an active area of research. This problem is challenging because the user-item preference matrix can be very large while it has a low rank structure which can be leveraged. Previous works have mainly focused to approximately reconstruct this user-item matrix with stochastic observations which requires a lot of assumptions and costly matrix operations. We mainly focused on intelligently exploring a partially observed user-item matrix without reconstructing it by leveraging the prior knowledge of the rank of the matrix. This is an ongoing \href{https://subhojyoti.github.io/pdf/paper.pdf}{work} with Dr. Branislav Kveton, Dr.Anup Rao  while I was an intern at Adobe Research which we hope to publish soon.
+\textbf{3. Ranking and Latent Bandits:} Online ranking of items personalized for each user based on their historical preference is an active area of research. This problem is challenging because the user-item preference matrix can be very large while it has a low rank structure which can be leveraged. Previous works have mainly focused to approximately reconstruct this user-item matrix with stochastic observations which requires a lot of assumptions and costly matrix operations. We mainly focused on intelligently exploring a partially observed user-item matrix without reconstructing it by leveraging the prior knowledge of the rank of the matrix. This is an ongoing \href{https://subhojyoti.github.io/pdf/paper.pdf}{\underline{\color{blue}work}} with Dr. Branislav Kveton, Dr.Anup Rao  while I was an intern at Adobe Research, San Jose which we are planning to publish soon.
 
-These works and more fundamental insights into several aspects of Bandits and RL have been captured in my \href{https://www.cse.iitm.ac.in/~ravi/papers/Subhojyoti_thesis.pdf}{MS thesis} which was accepted by my technical committee without any major revision.
+These works and more fundamental insights into several aspects of Bandits, RL and Learning theory have been captured in my \href{https://www.cse.iitm.ac.in/~ravi/papers/Subhojyoti_thesis.pdf}{\underline{\color{blue}MS thesis}} which was accepted by my technical committee at IIT Madras without any major revision.
 	 
 	 %I further worked on two interesting variations of Bandits with my internship advisers at INRIA, SequeL Lab, Lille France and at Adobe Research Lab, San Jose where I interned in 2017 and 2018 respectively.
 	
@@ -143,7 +170,9 @@ These works and more fundamental insights into several aspects of Bandits and RL
 \section{Future Directions}
 \vspace*{-1em}
 
-Although I have mainly focused on immediate Reinforcement Learning settings and mostly theoretical works, I am open to a variety of research areas. A few of the interesting research problems that I intend to work are,
+%Although I have mainly focused on immediate Reinforcement learning settings and mostly theoretical works, I am open to a variety of research areas  to bridge the gap between statistical learning theory and their empirical performance. A few of the interesting research problems that I intend to work are,
+
+Working on theoretical research in RL setting allows me to expand my research frontier in a variety of new but related research areas including but not limited to statistical learning theory, optimization. I am open to a variety of research areas  to bridge the gap between statistical learning theory and their empirical performance. A few of the interesting research problems that I intend to work are,
 
 \textbf{1. Off Policy Reinforcement Learning:} Often the complete knowledge of the world is not available to the learner and this forces it to adopt different strategies. Some of the motivating examples of these are, a robot trying to navigate a maze using faulty sensors, or administering medical treatments to patients with only a partial knowledge of the true state of the patient (as it is requires information to an atomic level) or even in recommender systems trying to figure out user preferences from past logs without actually subjecting user to cumbersome exploration strategies. In RL,  partial observability is a broad area of research and theoretical guarantees are hard to give because of the high variance in the performance of various strategies due to limited exposure to the state space. This is related to my previous experience as this again boils down to conducting intelligent exploration to reduce variance in  performance as well as give a theoretical guarantee on how worse the performance can be.
 
@@ -156,9 +185,11 @@ Although I have mainly focused on immediate Reinforcement Learning settings and 
 
 \textbf{3. High Dimensional Reinforcement Learning:} There has been several recent successes of RL for large state spaces like the game Go or in autonomous driving. In large state spaces the success of RL has come by employing powerful non-linear function approximation techniques like Neural Networks. But sound theoretical guarantees for RL only exist for small state spaces using linear function approximation techniques. I am interested in bridging this gap between the theoretical and empirical performance of RL as this will directly benefit some of the challenges mentioned before and I can draw my knowledge from concentration measure theory and RL to contribute to this.
 
+\vspace*{-2em}
 \section{Program and Faculty of Interest}
+\vspace*{-1em}
 
-There are several professors at Carnegie Mellon University such as \textit{Dr. Pradeep Ravikumar} and \textit{Dr. Aaditya Ramdas} whose projects are especially appealing to me. Dr. Pradeep Ravikumar works in theoretical machine learning and its applications to high dimensional real-life data-sets which is an area I am interested to work in. Specifically, I want to work with him in the theoretical areas of learning theory and find common solutions where bandit theory can be applied. Also, I am interested to work with Dr. Aaditya Ramdas in the area of online learning and optimization. I want to collaborate with him in several of his areas of interest such as automated discovery and efficient data processing in applied sciences including health-sciences and robotics, where there are several bandit variants which can be applied.
+I believe that a doctoral degree from Carnegie Mellon University will propel me a long way in my goal to become a professor in Computer Science. Its broad reach and in-depth courses on a  variety of subjects ranging from practical to theoretical applications in Computer Science will help me in my endeavor. There are several professors at Carnegie Mellon University such as \textit{Dr. Pradeep Ravikumar} and \textit{Dr. Aaditya Ramdas} whose works/projects are especially appealing to me. Dr. Pradeep Ravikumar works in theoretical machine learning and its applications to high dimensional real-life data-sets which is an area I am interested to work in. Specifically, I want to work with him in the theoretical areas of learning theory and find common solutions where my expertise can be applied. Also, I am interested to work with Dr. Aaditya Ramdas in the area of online learning and optimization. I want to collaborate with him in several of his areas of interest such as automated discovery and efficient data processing in applied sciences including health-sciences and robotics, where there are several bandit variants which can be applied.
 
 %\begin{enumerate}
 %\item \textbf{Efficient-UCBV: An Almost Optimal Algorithm using Variance Estimates:} In this work, we focus on the simple stochastic bandit model. We propose a novel variant of the UCB algorithm (referred to as Efficient-UCB-Variance (EUCBV)) for minimizing cumulative regret in the stochastic multi-armed bandit (MAB) setting. EUCBV incorporates the arm elimination strategy proposed in UCB-Improved, while taking into account the variance estimates to compute the arms' confidence bounds, similar to UCBV. Through a theoretical analysis we establish that EUCBV incurs a \emph{gap-dependent} regret bound of  $O\left( \dfrac{K\sigma^2_{\max} \log (T\Delta^2 /K)}{\Delta}\right)$ after $T$ trials, where $\Delta$ is the minimal gap between optimal and sub-optimal arms; the above bound is an improvement over that of existing state-of-the-art UCB algorithms (such as UCB1, UCB-Improved, UCBV,  MOSS). Further, EUCBV incurs a \emph{gap-independent} regret bound of {$O\left(\sqrt{KT}\right)$}  which is an improvement over that of UCB1, UCBV and UCB-Improved, while being comparable with that of MOSS and OCUCB. Through an extensive numerical study, we show that EUCBV significantly outperforms the popular UCB variants (like MOSS, OCUCB, etc.) as well as Thompson sampling and Bayes-UCB algorithms. This work has been accepted for publication in \textit{Proceedings of the Thirty-Second Association for the Advancement of Artificial Intelligence (AAAI-18)}. Also accepted for oral presentation and awarded Google travel grant and AAAI grant.
