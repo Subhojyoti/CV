@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 NOV 2018 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 DEC 2018 03:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -262,16 +262,16 @@ cial In-tel-li-gence and Statis-
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3]
-Overfull \hbox (36.43596pt too wide) in paragraph at lines 232--250
+Overfull \hbox (36.43596pt too wide) in paragraph at lines 234--252
 [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 254.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 256.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
  ) 
 Here is how much of TeX's memory you used:
  4894 strings out of 492995
@@ -291,7 +291,7 @@ e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 mf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/urw/helvetic/uhvro8a.pfb>
-Output written on subho_cv.pdf (4 pages, 114383 bytes).
+Output written on subho_cv.pdf (4 pages, 114554 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  19 named destinations out of 1000 (max. 500000)
