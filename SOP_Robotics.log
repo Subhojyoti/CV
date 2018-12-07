@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 DEC 2018 20:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 DEC 2018 04:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**SOP1.tex
-(./SOP1.tex
+**SOP_Robotics.tex
+(./SOP_Robotics.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -1256,8 +1256,9 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TeXr@lab=\toks46
 ))
 \c@lecnum=\count167
- (./SOP1.aux)
-\openout1 = `SOP1.aux'.
+
+(./SOP_Robotics.aux)
+\openout1 = `SOP_Robotics.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
 LaTeX Font Info:    ... okay on input line 121.
@@ -1323,11 +1324,12 @@ LaTeX Info: Redefining \ref on input line 121.
 LaTeX Info: Redefining \pageref on input line 121.
 LaTeX Info: Redefining \nameref on input line 121.
 
-(./SOP1.out) (./SOP1.out)
+(./SOP_Robotics.out) (./SOP_Robotics.out)
 \@outlinefile=\write4
-\openout4 = `SOP1.out'.
+\openout4 = `SOP_Robotics.out'.
 
- ABD: EveryShipout initializing macros
+
+ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
@@ -1348,34 +1350,33 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 139.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 146.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 142.
  [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./
-SOP1.bbl)
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
- (./SOP1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
-Package rerunfilecheck Info: File `SOP1.out' has not changed.
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(./SOP_Robotics.bbl) [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
+ (./SOP_Robotics.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
+Package rerunfilecheck Info: File `SOP_Robotics.out' has not changed.
 (rerunfilecheck)             Checksum: 4536461A2550A3CC8BA922E0105A6552;179.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
  31175 strings out of 492995
- 735511 string characters out of 6132704
- 935194 words of memory out of 5000000
+ 735631 string characters out of 6132704
+ 935185 words of memory out of 5000000
  34158 multiletter control sequences out of 15000+600000
  22349 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,98p,1553b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,12n,98p,1183b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
 7/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SOP1.pdf (3 pages, 57587 bytes).
+Output written on SOP_Robotics.pdf (3 pages, 57589 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
