@@ -1,0 +1,181 @@
+\documentclass{article}
+\setlength{\oddsidemargin}{0.25 in}
+\setlength{\evensidemargin}{-0.25 in}
+\setlength{\topmargin}{-0.6 in}
+\setlength{\textwidth}{6.5 in}
+\setlength{\textheight}{8.5 in}
+\setlength{\headsep}{0.75 in}
+\setlength{\parindent}{0 in}
+\setlength{\parskip}{0.1 in}
+
+%
+% ADD PACKAGES here:
+%
+
+\usepackage{amsfonts,graphicx}
+%\usepackage{amsmath}
+\usepackage{algorithm}
+%\usepackage[noend]{algpseudocode}
+\usepackage{verbatim}
+\usepackage[top=0.75in,right=0.75in,left=0.75in,bottom=0.75in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{xcolor}
+
+
+
+\usepackage{macros}
+
+
+%
+% The following commands set up the lecnum (lecture number)
+% counter and make various numbering schemes work relative
+% to the lecture number.
+%
+\newcounter{lecnum}
+\renewcommand{\thepage}{\arabic{page}}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\theequation}{\arabic{equation}}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+
+%
+% The following macro is used to generate the header.
+%
+\newcommand{\lecture}[4]{
+   \pagestyle{myheadings}
+   \thispagestyle{plain}
+   \newpage
+   \setcounter{lecnum}{#1}
+   \setcounter{page}{1}
+   \noindent
+   \begin{center}
+   \framebox{
+      \vbox{
+      %\vspace{2mm}
+%    \hbox to 6.28in { {\bf Statement of Purpose
+%        \hfill Fall 2018} }
+	%\begin{center}
+       \vspace{1mm}
+       \hbox to 5.5in { {\Large \hfill Statement of Purpose \hfill} }
+%       \vspace{1mm}
+%       \hbox to 6.2in { {\it \hfill School of Computer Science  \hfill Subhojyoti Mukherjee  \hfill}}
+%       \vspace{1mm}
+%       \hbox to 6.2in { {\it \hfill Carnegie Mellon University  \hfill Ph.D Applicant \hfill} }
+       \hbox to 5.5in {\hfill 
+       \begin{tabular}{cc} 
+       Department of Computer Science  & Ph.D. Applicant \\
+       University of Illinois Urbana-Champaign & Subhojyoti Mukherjee (subho@cs.umass.edu)[\href{https://subhojyoti.github.io/pdf/subho_cv.pdf}{\underline{\color{red}CV}}]
+       \end{tabular} \hfill}
+        %\hbox to 5.2in { {\large \hfill Subhojyoti Mukherjee \hfill } }
+       %\end{center}
+      %\vspace{2mm}
+      }
+   }
+   \end{center}
+   %\markboth{Lecture #1: #2}{Lecture #1: #2}
+
+%Computing and Mathematical Sciences   
+}
+%
+% Convention for citations is authors' initials followed by the year.
+% For example, to cite a paper by Leighton and Maggs you would type
+% \cite{LM89}, and to cite a paper by Strassen you would type \cite{S69}.
+% (To avoid bibliography problems, for now we redefine the \cite command.)
+% Also commands that create a suitable format for the reference list.
+\renewcommand{\cite}[1]{[#1]}
+\def\beginrefs{\begin{list}%
+        {[\arabic{equation}]}{\usecounter{equation}
+         \setlength{\leftmargin}{2.0truecm}\setlength{\labelsep}{0.4truecm}%
+         \setlength{\labelwidth}{1.6truecm}}}
+\def\endrefs{\end{list}}
+\def\bibentry#1{\item[\hbox{[#1]}]}
+
+%Use this command for a figure; it puts a figure in wherever you want it.
+%usage: \fig{NUMBER}{SPACE-IN-INCHES}{CAPTION}
+\newcommand{\fig}[3]{
+            \vspace{#2}
+            \begin{center}
+            Figure #1:~#3
+            \end{center}
+    }
+
+
+
+\begin{document}
+
+\lecture{1}{A - Title}{Lecturer Name}{scribe-name}
+
+
+I want to pursue Ph.D. in Computer Science and I aspire to become a professor in this field. My research interests span the areas of \textit{Machine learning, Reinforcement learning, Online Learning, Multi-armed bandits, Applied Probability, Online Optimization}. I completed M.S (Research) in Computer Science on July 2018 from \textbf{Indian Institute of Technology Madras} under the supervision of  \underline{\color{red}\href{https://www.cse.iitm.ac.in/~ravi/}{Dr. Balaraman Ravindran}} and \underline{\color{red}\href{https://rbc-dsai.iitm.ac.in/members/Nandan\%20Sudarsanam/}{Dr. Nandan Sudarsanam}}. I am currently a first semester Ph.D. candidate at \textbf{University of Massachusetts Amherst} from Fall 2018 but I am looking for Ph.D. opportunities in University of Illinois Urbana-Champaign as my recruiting faculty \underline{\color{red}\href{https://www.microsoft.com/en-us/research/people/akshaykr/}{Dr. Akshay Krishnamurthy}} has left for Microsoft Research and there is no other faculty at the current institute whose research interest matches with mine.
+
+\vspace*{-2em}
+\section{Completed/Ongoing Research}
+\vspace*{-1em}
+
+
+I have mainly focused on theoretical research in Reinforcement learning (RL). To briefly describe, an RL agent employs a sequentially adaptive strategy to select actions based on some environmental feedback that maximizes some long-term performance metric. Within the RL framework, Multi-armed Bandits address one of the fundamental challenges of learning in general called the exploration-exploitation dilemma which tries to answer the following question: "When should a learning algorithm stop exploring alternative actions and focus on the action that has yielded the maximum payoff till now?" This trade-off is a fundamental challenge in many practical and industrial level problems such as item recommendation to new users for which no prior information exist; administration of medical treatments to suffering patients; design of a speech and dialogue system in Natural Language Processing, intelligent tutoring system, etc. Some of my research works which got published in premier conferences (or is ongoing) which addresses these issues are mentioned below.
+
+
+\textbf{1. Variance aware Bandits:} An important problem which arises in mobile channel recommendation and online item recommendation where there is a separation between testing and deployment phases is how to employ these bandits in a pure-exploration setting. In the pure-exploration \href{https://www.ijcai.org/proceedings/2017/0350.pdf}{\underline{\color{blue}Thresholding Bandits}} \citep{mukherjee2016} we proposed an algorithm which finds the best set of actions with qualities above a particular threshold. The challenge lies in the observation that this best set can be very large and moreover that the candidate set of actions can be exponentially large. Our novel algorithm solves this problem by estimating the mean and the \textit{variance} (hence being variance-aware) of the actions to determine their qualities, thereby significantly reducing the exploration. We also provide theoretical bounds for the maximum possible loss suffered by our
+method. This work was published in \textbf{International Joint Conference on Artificial Intelligence 2017}.
+
+%further being
+
+My next work focused on a more fundamental problem regarding exploration-exploitation dilemma in which there has been a theoretical gap in the lower and upper bound on the loss of a class of strategies called \textit{variance aware elimination} algorithms. These algorithms eliminate actions which are deemed to be sub-par depending on their qualities based on estimated variances. Our proposed algorithm called \href{https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16111}{\underline{\color{blue}Efficient-UCB-Variance}} \citep{mukherjee2018} falls under this class, and we established that the maximum possible loss (regret upper bound) of this strategy matches the lower bound for all classes of strategies in all the possible environments satisfying certain properties. This work has been accepted in \textbf{Association for Advancement of Artificial Intelligence 2018}.
+
+\textbf{2. Changepoint detection and piecewise i.i.d Bandits:}  Applying Bandit strategies in environments where the quality of all the actions change abruptly and simultaneously has proved to be quite challenging. This is quite common in \textit{medical domain} where the behavior of drug-resistant bacteria may change abruptly prompting a different response to all treatments (actions). We proposed two novel algorithms called \href{https://subhojyoti.github.io/pdf/aistats_2019.pdf}{\underline{\color{blue}UCB-CPD}} and \href{https://subhojyoti.github.io/pdf/aistats_2019.pdf}{\underline{\color{blue}ImpCPD}} for this setting with interesting theoretical guarantees and closed some gaps in the existing bounds. This work was jointly done with \href{https://scholar.google.com/citations?user=7EweMdoAAAAJ&hl=en}{\underline{\color{red}Dr. Odalric Maillard}} while I was an intern at INRIA, SequeL Lab, Lille and is currently under review in \textbf{International Conference on Artificial Intelligence and Statistics 2019}. 
+
+
+
+\textbf{3. Ranking and Latent Bandits:} Online ranking of items personalized for each user based on their historical preference is an active area of research. By leveraging its low-rank structure previous works have mainly focused on its approximate reconstruction using stochastic observations that require many assumptions and costly matrix operations. We mainly focused on intelligently exploring a partially observed user-item matrix without reconstructing it by leveraging the prior knowledge of the rank of the matrix. This is an ongoing joint \href{https://subhojyoti.github.io/pdf/paper.pdf}{\underline{\color{blue} work}} with \href{http://www.bkveton.com/}{\underline{\color{red}Dr. Branislav Kveton}}, and \href{https://sites.google.com/site/anupraob/}{\underline{\color{red}Dr.Anup Rao}}  while I was an intern at Adobe Research, San Jose which we are planning to publish soon.
+
+These works and more fundamental insights into several aspects of Bandits, RL and Learning theory have been captured in my \href{https://www.cse.iitm.ac.in/~ravi/papers/Subhojyoti_thesis.pdf}{\underline{\color{blue}MS thesis}} which was accepted by my technical committee at IIT Madras without any major revision.
+     
+     
+    
+\vspace*{-2em}
+\section{Future Directions}
+\vspace*{-1em}
+
+\begin{center} \textit{"Make Algorithms Trustworthy Again (\# MATA)" -- Subho}\end{center}
+
+There are several domains where the need of the hour is to provide safe, "trustworthy" algorithms that can predict correct actions with high confidence. Working on theoretical research in RL setting now allows me to expand my research frontier in a variety of new but related research areas including but not limited to statistical learning theory and optimization and to explore problems that bridge the gap between learning theory and empiricism. A few of the interesting research problems
+that I intend to work are,
+
+\textbf{1. Off-policy Reinforcement Learning:} Often the complete knowledge of the world is not available to the learner forcing it to adopt different strategies. Examples include maze navigation by a robot maze using faulty sensors, medical treatments with only a partial knowledge about the true state of the patient (as it requires information to
+an atomic level), and user preference recommender systems without cumbersome exploration strategies of complete user logs. Partial observability is a broad area of research in RL, and providing theoretical guarantees is hard due to the high variance in the performance of various strategies given only a limited state-space exposure. I
+can draw from my previous experience as this problem boils down to intelligent exploration for the reduction of performance variance and to provide theoretical guarantees
+
+
+\textbf{2. Safe Reinforcement Learning:}I am interested in safe RL which also poses some of the same challenges as above. For example, in the medical domain, not only do we have to work in a partially observable environment but we should also give confidence guarantees for the proposed action (medical treatment) since this gives confidence to the medical
+practitioner in a high-risk environment where faulty actions might cause death. This is again directly related to my previous experience as this requires a sound knowledge of concentration inequalities to give the confidence on an action taken. Safe RL is also of extreme importance in areas of robotics as well, for example in autonomous driving,
+and motion planning and control.
+%\textbf{3. Interactive Active Learning:}  Have to read some papers.
+
+
+\textbf{3. High Dimensional Reinforcement Learning:} There has been several recent successes of RL in large state spaces such as the game Go and autonomous driving, wherein the success has come by employing powerful nonlinear function approximation techniques like Neural Networks. But sound theoretical guarantees for RL only exist
+for small state spaces using linear function approximation techniques. I am interested in bridging this gap between the theoretical and empirical performances of RL as this will directly benefit some of the challenges mentioned before, and I can draw my knowledge from concentration measure theory and RL to contribute to this problem.
+
+
+\textbf{4. Optimal Design, \& Active Learning:} Many supervised learning tasks operate on limited labeled data, and hence, the learning models have high uncertainty in their prediction. Also in certain tasks, it is costly to run experiments, and hence, the learner needs to carefully pick subsets of data to minimize model uncertainty. There are many ways to address this including active learning, online learning, and bandit feedback. This is a combinatorial optimization problem having many open-ended questions and requiring strong theoretical guarantees,  to which I can contribute.
+
+
+\vspace*{-2em}
+\section{Program and Faculty of Interest}
+\vspace*{-1em}
+
+I believe that a doctoral degree from the Department of Computer Science will propel me a long way in my goal to become a professor in Computer Science. Its broad reach and in-depth courses on a  variety of subjects ranging from practical to theoretical applications in Computer Science will help me in my endeavor. There are several professors at the University of Illinois Urbana-Champaign such as \textbf{Dr. Nan Jiang}, \textbf{Dr. Lav Varshney}, and \textbf{Dr. Timothy Bretl} whose publications/projects are especially appealing to me. All of these faculties work in the areas that I know of and I am interested to work with them for my doctoral research. I have reached out to \underline{\color{red}\href{http://nanjiang.cs.illinois.edu/}{Dr. Nan Jiang}} and he has shown interest in my work and encouraged me to apply to this school. Also, I will be grateful if the admission committee can find a suitable fit for me in the Department of Computer Science based on my research experience and interests.
+
+
+
+
+%\newpage
+\bibliographystyle{aaai}
+\bibliography{refs}
+
+%mukherjee2016
+%mukherjee2018
+
+\end{document}
