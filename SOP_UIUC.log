@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  7 DEC 2018 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  8 DEC 2018 00:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1420,7 +1420,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
 Here is how much of TeX's memory you used:
  31613 strings out of 492995
  742124 string characters out of 6132704
- 948710 words of memory out of 5000000
+ 949708 words of memory out of 5000000
  34587 multiletter control sequences out of 15000+600000
  22349 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1429,7 +1429,7 @@ Here is how much of TeX's memory you used:
 exlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
 7/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SOP_UIUC.pdf (2 pages, 59160 bytes).
+Output written on SOP_UIUC.pdf (2 pages, 58857 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
