@@ -157,7 +157,7 @@ Presented a novel algorithm for the stochastic multi-armed bandit (MAB) problem.
 \par
 
 \textbf{Order Optimal and Time-uniform Bounds for Piecewise i.i.d Bandits}\\
-We consider the setup of stochastic multi-armed bandits in the case when reward distributions are piecewise i.i.d. and bounded with unknown changepoints. We focus on the case when changes happen simultaneously on all arms, and in stark contrast with the existing literature, we target gap-dependent (as opposed to only gap-independent) regret bounds involving the magnitude of changes $(\Delta^{chg}_{i,g})$ and optimality-gaps ($\Delta^{opt}_{i,g}$). Under a slightly stronger set of assumptions, we show that as long as the compounded delayed detection for each changepoint is bounded there is no need for extra exploration to actively detect changepoints. We introduce two adaptations of UCB-strategies that employ scan-statistics in order to actively detect the changepoints, without knowing in advance the changepoints and also the mean before and after any change. Our first method UCBLaplace-CPD does not know the number of changepoints $G$ or time horizon $T$ and achieves the first time-uniform concentration bound for this setting using the Laplace method of integration. The second strategy ImpCPD makes use of the knowledge of $T$ to achieve the order optimal regret bound of $\min\big\lbrace O(\sum_{i=1}^{K} \sum_{g=1}^{G}\frac{\log(T/H_{1,g})}{\Delta^{chg}_{i,g}}), O(\sqrt{GT})\big\rbrace$, (where $H_{1,g}$ is the problem complexity) thereby closing an important gap with respect to the lower bound in a specific setting. Our theoretical findings are supported by numerical experiments on synthetic and real-life datasets. \href{https://github.com/Subhojyoti/INRIA_Intern/blob/master/ICML2019/paper.pdf}{[Paper]}
+We consider the setup of stochastic multi-armed bandits in the case when reward distributions are piecewise i.i.d. and bounded with unknown changepoints. We focus on the case when changes happen simultaneously on all arms, and in stark contrast with the existing literature, we target gap-dependent (as opposed to only gap-independent) regret bounds involving the magnitude of changes and optimality-gaps. Under a slightly stronger set of assumptions, we show that as long as the compounded delayed detection for each changepoint is bounded there is no need for extra exploration to actively detect changepoints. We introduce two adaptations of UCB-strategies that employ scan-statistics in order to actively detect the changepoints, without knowing in advance the changepoints and also the mean before and after any change. Our first method UCBLaplace-CPD does not know the number of changepoints $G$ or time horizon $T$ and achieves the first time-uniform concentration bound for this setting using the Laplace method of integration. The second strategy ImpCPD makes use of the knowledge of $T$ to achieve the order optimal regret bound of thereby closing an important gap with respect to the lower bound in a specific setting. Our theoretical findings are supported by numerical experiments on synthetic and real-life datasets. \href{https://github.com/Subhojyoti/INRIA_Intern/blob/master/ICML2019/paper.pdf}{[Paper]}
 
 %to remove the $\log T$ dependency thereby closing an important gap with respect to the lower bound.
 %
@@ -223,8 +223,10 @@ Artificial Intelligence & Design and Analysis of Algorithms \\
 
 \section{Award and Grants}
 \begin{enumerate}
-\item Our paper titled "Thresholding Bandits with Augmented UCB" was awarded IIT Madras student travel grant of USD $2300$.
-\item Our paper titled "Efficient UCBV: An Almost Optimal Algorithm using Variance Estimates" was awarded Google travel grant of USD $1700$, AAAI grant of USD $500$ and Microsoft travel grant of USD $1435$.
+\item  IIT Madras student travel grant of USD $2300$.
+\item Google travel grant of USD $1700$.
+\item AAAI grant of USD $500$.
+\item Microsoft travel grant of USD $1435$.
 \end{enumerate}
 
 
