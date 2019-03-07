@@ -165,7 +165,7 @@ We consider the setup of stochastic multi-armed bandits in the case when reward 
 %    We also derive gap-independent regret bounds. The first strategy UCB-CPD does not know the time horizon $T$ and achieve a $O(\sqrt{GT}\log T)$ regret bound, while the second strategy ImpCPD makes use of the knowledge of $T$ to remove the $\log T$ dependency thereby closing an important gap with respect to the lower bound. Empirically, ImpCPD outperforms most of the passive and adaptive algorithms except the oracle-based algorithms that have access to the exact changepoints in all the considered environments.
 
 \textbf{Non-Stochastic Low Rank Bandit}\\
-We study the problem of learning the maximum entry of a low-rank non-negative matrix, from sequential observations. In this setting, the learner chooses tuples of rows and columns at every round and observes the product of their values. The main challenge in this setting is that the learner does not observe the individual latent values of rows and columns as its feedback. Diverging from previous works we assume that the preference matrix is non-stochastic and hence our setting is more general in nature. Existing methods for solving similar problems rely on UCB-type algorithms based on constructing conservative confidence intervals with the strong assumption that underlying distributions are stochastic. We depart from this standard approach and consider the case when the best row and column pair can be learned jointly with help of two separate bandit algorithms working individually on rows and columns. We propose a simple and computationally efficient algorithm that implements this procedure, which we call Low Rank Bandit, and prove a sub-linear bound on its $n$-step regret in the rank-$1$ special case. We evaluate the algorithm empirically on several synthetic and real-world datasets. In all experiments, we outperform existing state-of-the-art algorithms. \href{https://github.com/Subhojyoti/Latent_Bandits/blob/master/IJCAI2019/bandit_paper.pdf}{[Report]}
+We study the problem of learning the maximum entry of a low-rank non-negative matrix, from sequential observations. In this setting, the learner chooses tuples of rows and columns at every round and observes the product of their values. The main challenge in this setting is that the learner does not observe the individual latent values of rows and columns as its feedback. Diverging from previous works we assume that the preference matrix is non-stochastic and hence our setting is more general in nature. Existing methods for solving similar problems rely on UCB-type algorithms based on constructing conservative confidence intervals with the strong assumption that underlying distributions are stochastic. We depart from this standard approach and consider the case when the best row and column pair can be learned jointly with help of two separate bandit algorithms working individually on rows and columns. We propose a simple and computationally efficient algorithm that implements this procedure, which we call Low Rank Bandit, and prove a sub-linear bound on its $n$-step regret in the rank-$1$ special case. We evaluate the algorithm empirically on several synthetic and real-world datasets. In all experiments, we outperform existing state-of-the-art algorithms. \href{https://github.com/Subhojyoti/Latent_Bandits/blob/master/IJCAI2019/bandit_paper.pdf}{[Paper]}
 
 %\textbf{Conservative Bandits}\\
 %We study 
@@ -183,9 +183,11 @@ We study the problem of learning the maximum entry of a low-rank non-negative ma
 \section{Teaching Experience}
 \par
 \textbf{Teaching Assistant}, UMass Amherst\hfill 2018--current\\
-\textbf{Teaching Assistant}, IIT Madras\hfill 2015--2018\\
 Assisted in preparing and conducting lab assignments and class tutorials for the following courses:\\
 \textit{Natural Language Processing} - Prof.~Mohit Iyyer\\
+\textit{Design of Algorithms} - Prof.~Daniel Sheldon\\
+\textbf{Teaching Assistant}, IIT Madras\hfill 2015--2018\\
+Assisted in preparing and conducting lab assignments and class tutorials for the following courses:\\
 \textit{Introduction to Programming} - Prof.~Raghavendra Rao B. V. \\
 \textit{Reinforcement Learning}(twice) - Prof.~Balaraman Ravindran\\
 \textit{Compiler Design} - Prof.~Rupesh Nasre
